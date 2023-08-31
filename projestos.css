@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+:root {
+    --1: #263e9c;
+    --2:#1d2f8b;
+    --3:#132179;
+    --4:#0a1268;
+    --5:#000356;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #263e9c;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    color: #fff;
+    background-color: #fff;
+}
+img {
+    height: 250px;
+    width: 300px;
+}
+.navigation {
+    text-decoration: none;
+    color: #fff;
+    padding:  6px 15px;
+    border-radius: 20px;
+    margin: 0 10px;
+    font-weight: 600;
+    padding: 10px;
+    letter-spacing: 1px;
+    Word-spacing: 2px;
+    background-color: #00000062;
+}
+.navigation a:hover,
+.navigation a.active {
+    background: #fff;
+    color: #000;
+    border-radius: 8px;
+}
+.top-bottom {
+    color: aquamarine;
+}
+header {
+    display: flex;
+    position: static;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    z-index: 100;
+    flex-direction: row;
+    color: #fff;
+}
+.title{
+    font-family: 'Poppins';
+    color: #fff;
+    display: flex;
+    align-items: center;
+}
